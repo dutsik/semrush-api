@@ -22,6 +22,7 @@ abstract class Column
     const COLUMN_KEYWORD_AVERAGE_QUERIES = "Nq";
     const COLUMN_KEYWORD_AVERAGE_CLICK_PRICE = "Cp";
     const COLUMN_DOMAIN_KEYWORD_TRAFFIC_PERCENTAGE = "Tr";
+    const COLUMN_DOMAIN_KEYWORD_TRAFFIC_AMMOUNT = "Tg";
     const COLUMN_KEYWORD_ESTIMATED_PRICE = "Tc";
     const COLUMN_KEYWORD_COMPETITIVE_AD_DENSITY = "Co";
     const COLUMN_KEYWORD_ORGANIC_NUMBER_OF_RESULTS = "Nr";
@@ -99,7 +100,8 @@ abstract class Column
     const COLUMN_SERP_FEATURE_KEYWORD_FLIGHTS = 'FK23';
 
     /**
-     * Get all the possible columns
+    Dn, Ur, Fk, Fp
+     *     * Get all the possible columns
      *
      * @return string[]
      */

@@ -18,7 +18,8 @@ abstract class Type
     const TYPE_ADVERTISER_RANK = "advertiser_rank";
     const TYPE_DOMAIN_PLA_SEARCH_KEYWORDS = "domain_shopping";
     const TYPE_KEYWORD_DIFFICULTY = "phrase_kdi";
-
+    const TYPE_URL_ORGANIC = "url_organic";
+    const TYPE_KEYWORD_ORGANIC = "phrase_organic";
     /**
      * Get all the possible columns
      *

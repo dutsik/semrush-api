@@ -257,6 +257,28 @@ class Client
     }
 
     /**
+     * @param $url
+     * @param array $options
+     * @return ApiResult
+     * @throws Exception
+     */
+    public function getUrlOrganic($url, $options = [])
+    {
+        return $this->makeRequest(Type::TYPE_URL_ORGANIC, ['url' => $url] + $options);
+    }
+
+    /**
+     * @param $url
+     * @param array $options
+     * @return ApiResult
+     * @throws Exception
+     */
+    public function getKeywordOrganic($keyword, $options = [])
+    {
+        return $this->makeRequest(Type::TYPE_KEYWORD_ORGANIC, ['phrase' => $keyword] + $options);
+    }
+
+    /**
      * @param $type
      * @param $options
      * @return ApiResult
