@@ -620,6 +620,7 @@
       "export_columns": "columns",
       "export_escape": "boolean",
       "display_date": "date_format:Ymd",
+      "display_limit": "integer",
       "export_decode": "boolean"
     },
     "preset_fields": {
@@ -662,6 +663,7 @@
       "export_columns": "columns",
       "export_escape": "boolean",
       "display_date": "date_format:Ymd",
+      "display_limit": "integer",
       "export_decode": "boolean"
     },
     "preset_fields": {
